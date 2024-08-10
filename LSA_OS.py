@@ -91,10 +91,3 @@ class stability_analysis:
         u = (zi/self.alpha)*v_hat_y
         return(u)
 
-#get_u_for_2D(np.linspace(0,1,100),1)
-#lsa_OS = stability_analysis(1e4, 0 , 1, 0)
-#Cheb_points = np.arange(20,55,5)
-#for i in range(0,len(Cheb_points)):
-#    lsa_OS.N = Cheb_points[i]
-#    temp = lsa_OS.get_most_unstable_eigenvalue()
-#    print( Cheb_points[i],temp[0])
